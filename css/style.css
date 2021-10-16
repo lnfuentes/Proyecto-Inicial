@@ -1,0 +1,280 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 400;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.seccion{
+    padding: 25px 0;
+}
+
+.preparacion{
+    width: 500px;
+    margin: 0 20px;
+}
+
+/* HEADER */
+
+.header{
+    height: 600px;
+    text-align: center;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1{
+    color: #fff;
+    margin: 150px 0 0 0;
+}
+
+.logo{
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.logo span{
+    color: #FAA900;
+    font-weight: bold;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.navegacion li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 0;
+    transition: all .3s ease;
+}
+
+.navegacion li a:hover{
+    color: #FAA900;
+}
+
+/* CONTENIDO */ 
+
+.informacion{
+    background-color: #000; 
+    color: #ccc;
+    padding: 20px 0;
+}
+
+.informacion h2{
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.recetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor-img{
+    overflow: hidden;
+}
+
+.imagen-receta{
+    transition: all .3s ease-in-out;
+}
+
+.imagen-receta:hover{
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #000;
+    color: #ccc;
+}
+
+.redes-sociales p{
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales a i{
+    color: #fff;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+/* -- PAGINAS INTERNAS -- */
+
+.internas{
+    background-color: #000;
+    height: auto;
+}
+
+/* RECETAS */
+
+.tabla tr td{
+    padding: 30px;
+    border-bottom: 1px solid #acacac;
+}
+
+.tabla tr th{
+    padding: 10px 0;
+    background-color: #FAA900;
+    color: #222;
+}
+
+.porciones{
+    width: 150px;
+}
+
+.recetas-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* NOSOTROS */ 
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.parrafo-nosotros{
+    line-height: 2;
+}
+
+.parrafo-nosotros h3{
+    padding: 10px 0;
+}
+
+
+/* CONTACTO */ 
+
+.formulario{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(68, 68, 68) 100%);
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.campos{
+    margin: 20px 0;
+}
+
+.campos label{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.campos input,select,textarea{
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #acacac;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.campos input[type="checkbox"] {
+    width: 30px;
+    display: inline;
+}
+
+.campos textarea{
+    height: 200px;
+}
+
+.btn{
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-enviar{
+    background-color: #090;
+}
+
+.btn-reestablecer{
+    background-color: #f09001;
+}
+
