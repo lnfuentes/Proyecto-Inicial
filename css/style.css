@@ -124,8 +124,8 @@ p{
 .recetas{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 40px;
+    text-align: center;
 }
 
 .galeria{
@@ -141,6 +141,7 @@ p{
 
 .imagen-receta{
     transition: all .3s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .imagen-receta:hover{

@@ -7,6 +7,7 @@
     <title>Inicio - Chef Casero</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -33,7 +34,7 @@
 
     <main class="seccion contenedor">
         <h2>Recetas Destacadas</h2>
-        <div class="recetas">
+        <div class="recetas flex-column flex-md-row">
             <div class="recetas-destacadas">
                 <img src="img/receta1.jpg" alt="Imagen Recetas">
                 <h3>Carne de ternera con arroz blanco</h3>
@@ -46,7 +47,7 @@
             </div>
             <div class="recetas-destacadas">
                 <img src="img/receta3.jpg" alt="Imagen Recetas">
-                <h3>Fideos a la carbonara</h3>
+                <h3>Fideos con salsa carbonara</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quia voluptas eum odio optio aspernatur nesciunt quod cumque praesentium quibusdam. Consequuntur itaque harum rerum impedit maiores in error animi autem?</p>
             </div>
         </div> <!-- Recetas -->
@@ -55,26 +56,31 @@
     <section class="seccion contenedor">
         <h2>Galería</h2>
         <div class="galeria">
-            <div class="contenedor-img">
-                <div class="imagen-receta">
-                    <img src="img/galeria1.jpg" alt="Imagen Recetas">
+            <div class="row">
+                <div class="contenedor-img col-sm-6">
+                    <div class="imagen-receta">
+                        <img src="img/galeria1.jpg" alt="Imagen Recetas">
+                    </div>
                 </div>
+                <div class="contenedor-img col-sm-6">
+                    <div class="imagen-receta">
+                        <img src="img/galeria2.jpg" alt="Imagen Recetas">
+                    </div>
+                </div>    
             </div>
-            <div class="contenedor-img">
-                <div class="imagen-receta">
-                    <img src="img/galeria2.jpg" alt="Imagen Recetas">
+            <div class="row">
+                <div class="contenedor-img col-sm-6">
+                    <div class="imagen-receta">
+                        <img src="img/galeria3.jpg" alt="Imagen Recetas">
+                    </div>
                 </div>
+                <div class="contenedor-img col-sm-6">
+                    <div class="imagen-receta">
+                        <img src="img/galeria4.jpg" alt="Imagen Recetas">
+                    </div>
+                </div>    
             </div>
-            <div class="contenedor-img">
-                <div class="imagen-receta">
-                    <img src="img/galeria3.jpg" alt="Imagen Recetas">
-                </div>
-            </div>
-            <div class="contenedor-img">
-                <div class="imagen-receta">
-                    <img src="img/galeria4.jpg" alt="Imagen Recetas">
-                </div>
-            </div>
+            
         </div> <!-- Galeria -->
     </section> <!-- Seccion -->
 
@@ -88,5 +94,9 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
